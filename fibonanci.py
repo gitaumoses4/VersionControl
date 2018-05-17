@@ -1,5 +1,4 @@
-if __name__=='__main__':
-	end = input("Enter a number greater than 2: ")
+def fib(end):
 	if end > 2:
 		fib = [0,1]
 		for i in range(1,end):
